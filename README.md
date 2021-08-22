@@ -42,6 +42,10 @@ There are also some minor modifications in other files, the detail can be found 
 Now, The user of the SkyWalking Python Agent can profile their Python programs like their Java Programs in SkyWalking.
 
 # 2. How to use it
+
+As SkyWalking Blog [Apache SkyWalking: Use Profiling to Fix the Blind Spot of Distributed Tracing](https://skywalking.apache.org/blog/2020-04-13-apache-skywalking-profiling/) said, in root cause analysis, we often need to find out why a request is slowly, so SkyWalking added profile feature to help people locate problems, and I add profile feature into Python Agent in my GSoC Project.
+
+
 The profile function is enabled by default, you just need to start your application(like below code), open SkyWalking UI, start a new task, 
 and request your application, then you can see the result in the dashboard.
 
